@@ -7,13 +7,16 @@ const Reasons = () => {
     return (
         <section className='bg-[#B97271] w-full h-[700px] lg:h-[600px] relative'>
 
-            <Image
-                src={image}
-                alt='reason-image'
-                className='absolute w-[300px] lg:w-[310px] right-2 sm:right-10 bottom-0 z-20 object-contain opacity-70 lg:opacity-100'
-                data-aos="zoom-in"
-                data-aos-delay="300"
-            />
+            <div className='opacity-70 lg:opacity-100'>
+                <Image
+                    src={image}
+                    alt='reason-image'
+                    className='absolute w-[300px] lg:w-[310px] right-2 sm:right-10 bottom-0 z-20 object-contain'
+                    data-aos="zoom-in"
+                    data-aos-delay="300"
+                />
+            </div>
+
 
             <div className='w-full h-full relative flex items-center justify-center sm:px-10 overflow-hidden'>
                 <Image

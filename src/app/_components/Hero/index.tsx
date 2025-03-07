@@ -23,12 +23,12 @@ const Hero = () => {
             <Image src={bg1} alt='background-image-2' className="z-0 absolute left-[-16px] lg:left-[90px] h-[300px] w-[300px] lg:h-[450px] lg:w-[450px]" />
             <Image src={bg3} alt='background-image-3' className='z-0 absolute right-0 bottom-0 h-[500px] w-[300px] lg:h-[700px] lg:w-[450px]' />
 
-            <div className='absolute z-10 bottom-12' data-aos="zoom-in" data-aos-delay="300">
+            <div className='absolute z-10 bottom-12' data-aos="zoom-in" data-aos-delay="100">
                 <Image src={image} alt='Sirlei Santos' className='object-cover lg:hidden' height={400} quality={100} priority />
             </div>
 
             <div className='w-full items-end justify-end lg:hidden'>
-                <div className="absolute right-5 bottom-[200px] sm:right-[80px] sm:bottom-[240px] z-10" data-aos='fade-right' data-aos-delay='600'>
+                <div className="absolute right-5 bottom-[200px] sm:right-[80px] sm:bottom-[240px] z-10" data-aos='fade-right' data-aos-delay='200'>
                     <CardContainer opacity='opacity-90'>
                         <div className="flex justify-end items-center h-full w-full">
                             <p className="text-sm sm:text-lg">
@@ -42,7 +42,7 @@ const Hero = () => {
                     </CardContainer>
                 </div>
 
-                <div className="absolute right-5 sm:right-[130px] bottom-[70px] z-10" data-aos='fade-right' data-aos-delay='1000'>
+                <div className="absolute right-5 sm:right-[130px] bottom-[70px] z-10" data-aos='fade-right' data-aos-delay='300'>
                     <CardContainer opacity='opacity-90'>
                         <div className="flex justify-end items-center h-full w-full">
                             <p className="text-sm sm:text-lg">
@@ -62,7 +62,7 @@ const Hero = () => {
 
 
             <div className="hidden lg:block" >
-                <div className="absolute left-2 bottom-8 w-auto z-10" data-aos="zoom-in" data-aos-delay="300">
+                <div className="absolute left-2 bottom-8 w-auto z-10" data-aos="zoom-in" data-aos-delay="100">
                     <Image
                         src={image}
                         alt="Hero"
@@ -72,7 +72,7 @@ const Hero = () => {
                     />
                 </div>
 
-                <div className="absolute left-[240px] bottom-[260px] z-0" data-aos='fade-right' data-aos-delay='600'>
+                <div className="absolute left-[240px] bottom-[260px] z-0" data-aos='fade-right' data-aos-delay='200'>
                     <CardContainer opacity="opacity-80" width="500px" height="145px">
                         <div className="flex justify-end items-center h-full w-full">
                             <p className="text-lg">
@@ -86,7 +86,7 @@ const Hero = () => {
                     </CardContainer>
                 </div>
 
-                <div className="absolute left-[330px] bottom-[70px] z-0" data-aos='fade-right' data-aos-delay='1000'>
+                <div className="absolute left-[330px] bottom-[70px] z-0" data-aos='fade-right' data-aos-delay='300'>
                     <CardContainer opacity="opacity-80" width="524px" height="145px">
                         <div className="flex justify-end items-center h-full w-full">
                             <p className="text-lg">
