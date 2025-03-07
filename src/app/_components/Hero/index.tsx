@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import hero from '../../../../public/hero.png';
+import image from '../../../../public/hero.png';
 import CardContainer from '../CardContainer';
 import ScheduleButton from '../ScheduleButton';
 import bg1 from '../../../../public/asset-1.png';
@@ -23,13 +23,8 @@ const Hero = () => {
             <Image src={bg1} alt='background-image-2' className="z-0 absolute left-[-16px] lg:left-[90px] h-[300px] w-[300px] lg:h-[450px] lg:w-[450px]" />
             <Image src={bg3} alt='background-image-3' className='z-0 absolute right-0 bottom-0 h-[500px] w-[300px] lg:h-[700px] lg:w-[450px]' />
 
-
             <div className='absolute z-10 bottom-12' data-aos="zoom-in" data-aos-delay="300">
-                <Image src={hero} alt='Sirlei Santos' className='object-cover lg:hidden' height={400} quality={100} priority />
-            </div>
-
-            <div className='absolute z-10 bottom-12' data-aos="zoom-in" data-aos-delay="300">
-                <Image src={hero} alt='Sirlei Santos' className='object-cover lg:hidden' height={400} quality={100} priority />
+                <Image src={image} alt='Sirlei Santos' className='object-cover lg:hidden' height={400} quality={100} priority />
             </div>
 
             <div className='w-full items-end justify-end lg:hidden'>
@@ -69,7 +64,7 @@ const Hero = () => {
             <div className="hidden lg:block" >
                 <div className="absolute left-2 bottom-8 w-auto z-10" data-aos="zoom-in" data-aos-delay="300">
                     <Image
-                        src={hero}
+                        src={image}
                         alt="Hero"
                         className="object-contain"
                         quality={100}
