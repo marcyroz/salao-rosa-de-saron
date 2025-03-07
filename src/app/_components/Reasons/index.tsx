@@ -18,7 +18,7 @@ const Reasons = () => {
             </div>
 
 
-            <div className='w-full h-full relative flex items-center justify-center sm:px-10 overflow-hidden'>
+            <div className='w-full h-full relative flex items-center justify-center overflow-hidden'>
                 <Image
                     src={bg1}
                     alt='background-image-5'
