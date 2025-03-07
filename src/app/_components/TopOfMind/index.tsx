@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const TopOfMind = () => {
     return (
-        <div className="absolute top-[910px] log:top-[920px] w-full z-[9999]">
+        <div className="absolute top-[910px] lg:top-[920px] w-full z-20">
             <CardContainer radius={25}>
                 <Image src={image} alt="Top Of Mind" className='w-12 h-10 lg:w-25 lg:h-20' />
             </CardContainer>
