@@ -1,6 +1,6 @@
 import Hero from './_components/Hero';
 import Navbar from './_components/Navbar';
-import Services from './_components/SilderServices';
+import Services from './_components/Services';
 import TopOfMind from './_components/TopOfMind';
 
 export default function Home() {

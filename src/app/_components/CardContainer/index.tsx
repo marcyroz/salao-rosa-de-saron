@@ -9,6 +9,7 @@ interface CardContainerProps {
     padding?: number,
     gap?: number,
     direction?: 'row' | 'column',
+    className?: string,
 }
 
 const CardContainer: React.FC<CardContainerProps> = ({ children, radius, width, height, color, shadow, opacity, padding, gap, direction }) => {
