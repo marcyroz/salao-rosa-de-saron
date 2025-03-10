@@ -1,4 +1,5 @@
 import About from './_components/About';
+import Footer from './_components/Footer';
 import Hero from './_components/Hero';
 import Navbar from './_components/Navbar';
 import Reasons from './_components/Reasons';
@@ -12,6 +13,7 @@ export default function Home() {
       <TopOfMind />
       <About />
       <Reasons />
+      <Footer />
     </main>
   );
 }
