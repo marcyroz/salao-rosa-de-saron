@@ -63,7 +63,7 @@ const services = [
 const Services = () => {
   const [emblaRef, emblaApi] = useEmblaCarousel({
     loop: true,
-    align: "center",
+    align: "start",
     slidesToScroll: 1,
     breakpoints: {
       "(min-width: 768px)": { slidesToScroll: 3 },
@@ -109,12 +109,13 @@ const Services = () => {
               {services.map((item, index) => (
                 <div
                   key={index}
-                  className="flex-[0_0_100%] min-w-0
-                  sm:flex-[0_0_calc(100%/2)]     
-                  md:flex-[0_0_calc(100%/2)]     
-                  mlg:flex-[0_0_calc(100%/3)]   
-                  lg:flex-[0_0_calc(100%/5)]                          
-                  px-3"
+                  className="
+                    flex-[0_0_100%] min-w-0 px-3
+                    min-[700px]:flex-[0_0_calc(100%/2)]    
+                    min-[930px]:flex-[0_0_calc(100%/3)]   
+                    min-[1300px]:flex-[0_0_calc(100%/4)]   
+                    min-[1600px]:flex-[0_0_calc(100%/5)]   
+                  "
                 >
                   <CardContainer width="292px" height="488px">
                     <article className="flex flex-col h-full mt-1 cursor-pointer select-none">
@@ -139,16 +140,45 @@ const Services = () => {
             </div>
           </div>
           <button
-            className="flex items-center justify-center absolute top-1/2 -translate-y-1/2 lg:-left-15 -left-2 z-10 bg-[#ececec] drop-shadow-lg w-20 h-20 md:w-20 md:h-20 lg:w-10 lg:h-10 rounded-full "
+            className="
+              flex items-center justify-center absolute top-1/2 -translate-y-1/2 z-10 bg-[#ececec] drop-shadow-lg rounded-full
+              -left-2 w-20 h-20
+              min-[640px]:-left-2 min-[640px]:w-20 min-[640px]:h-20         
+              min-[730px]:-left-2 min-[730px]:w-20 min-[730px]:h-20         
+              min-[1000px]:-left-4 min-[1000px]:w-16 min-[1000px]:h-16       
+              min-[1600px]:-left-6 min-[1600px]:w-12 min-[1600px]:h-12   
+              min-[1700px]:-right-9 min-[1700px]:w-12 min-[1700px]:h-12       
+            "
             onClick={scrollPrev}
           >
-            <ChevronLeft className="lg:w-6 lg:h-6 w-10 h-10 text-[#B97271]"></ChevronLeft>
+            <ChevronLeft
+              className="
+                w-10 h-10 text-[#B97271]
+                min-[1000px]:w-8 min-[1000px]:h-8
+                min-[1600px]:w-6 min-[1600px]:h-6
+              "
+            />
           </button>
+
           <button
-            className="flex items-center justify-center absolute top-1/2 -translate-y-1/2 lg:-right-15 -right-2 z-10 bg-[#ececec] drop-shadow-lg w-20 h-20 md:w-20 md:h-20 lg:w-10 lg:h-10 rounded-full"
+            className="
+              flex items-center justify-center absolute top-1/2 -translate-y-1/2 z-10 bg-[#ececec] drop-shadow-lg rounded-full
+              -right-2 w-20 h-20
+              min-[640px]:-right-2 min-[640px]:w-20 min-[640px]:h-20         
+              min-[730px]:-right-2 min-[730px]:w-20 min-[730px]:h-20         
+              min-[1000px]:-right-4 min-[1000px]:w-16 min-[1000px]:h-16       
+              min-[1600px]:-right-6 min-[1600px]:w-12 min-[1600px]:h-12       
+              min-[1700px]:-right-9 min-[1700px]:w-12 min-[1700px]:h-12       
+            "
             onClick={scrollNext}
           >
-            <ChevronRight className="lg:w-6 lg:h-6 w-10 h-10 text-[#B97271]"></ChevronRight>
+            <ChevronRight
+              className="
+                w-10 h-10 text-[#B97271]
+                min-[1000px]:w-8 min-[1000px]:h-8
+                min-[1600px]:w-6 min-[1600px]:h-6
+              "
+            />
           </button>
         </div>
       </div>
