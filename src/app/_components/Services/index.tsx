@@ -66,7 +66,7 @@ const Services = () => {
     align: "start",
     slidesToScroll: 1,
     breakpoints: {
-      "(min-width: 768px)": { slidesToScroll: 3 },
+      "(min-width: 768px)": { slidesToScroll: 1 },
     },
   });
 
@@ -139,47 +139,57 @@ const Services = () => {
               ))}
             </div>
           </div>
-          <button
-            className="
-              flex items-center justify-center absolute top-1/2 -translate-y-1/2 z-10 bg-[#ececec] drop-shadow-lg rounded-full
-              -left-2 w-20 h-20
-              min-[640px]:-left-2 min-[640px]:w-20 min-[640px]:h-20         
-              min-[730px]:-left-2 min-[730px]:w-20 min-[730px]:h-20         
-              min-[1000px]:-left-4 min-[1000px]:w-16 min-[1000px]:h-16       
-              min-[1600px]:-left-6 min-[1600px]:w-12 min-[1600px]:h-12   
-              min-[1700px]:-right-9 min-[1700px]:w-12 min-[1700px]:h-12       
-            "
-            onClick={scrollPrev}
-          >
-            <ChevronLeft
-              className="
-                w-10 h-10 text-[#B97271]
-                min-[1000px]:w-8 min-[1000px]:h-8
-                min-[1600px]:w-6 min-[1600px]:h-6
-              "
-            />
-          </button>
+          <div className="absolute inset-0 pointer-events-none">
+  <div className="relative h-full w-full max-w-[1700px] mx-auto">
+    <button
+      className="
+        flex items-center justify-center absolute top-1/2 -translate-y-1/2 z-10 bg-[#ececec] 
+        drop-shadow-lg rounded-full pointer-events-auto
+        left-3 w-16 h-16   
+        sm:left-4 sm:w-14 sm:h-14
+        md:-left-2 md:w-16 md:h-16
+        lg:-left-2 lg:w-20 lg:h-20
+        xl:-left-6 xl:w-24 xl:h-24
+        2xl:-left-10 2xl:w-28 2xl:h-28
+      "
+      onClick={scrollPrev}
+    >
+      <ChevronLeft
+        className="
+          w-8 h-8 text-[#B97271]  
+          sm:w-8 sm:h-8
+          md:w-10 md:h-10
+          lg:w-12 lg:h-12
+          xl:w-14 xl:h-14
+        "
+      />
+    </button>
 
-          <button
-            className="
-              flex items-center justify-center absolute top-1/2 -translate-y-1/2 z-10 bg-[#ececec] drop-shadow-lg rounded-full
-              -right-2 w-20 h-20
-              min-[640px]:-right-2 min-[640px]:w-20 min-[640px]:h-20         
-              min-[730px]:-right-2 min-[730px]:w-20 min-[730px]:h-20         
-              min-[1000px]:-right-4 min-[1000px]:w-16 min-[1000px]:h-16       
-              min-[1600px]:-right-6 min-[1600px]:w-12 min-[1600px]:h-12       
-              min-[1700px]:-right-9 min-[1700px]:w-12 min-[1700px]:h-12       
-            "
-            onClick={scrollNext}
-          >
-            <ChevronRight
-              className="
-                w-10 h-10 text-[#B97271]
-                min-[1000px]:w-8 min-[1000px]:h-8
-                min-[1600px]:w-6 min-[1600px]:h-6
-              "
-            />
-          </button>
+    <button
+      className="
+        flex items-center justify-center absolute top-1/2 -translate-y-1/2 z-10 bg-[#ececec] 
+        drop-shadow-lg rounded-full pointer-events-auto
+        right-3 w-16 h-16  
+        sm:right-4 sm:w-14 sm:h-14
+        md:-right-2 md:w-16 md:h-16
+        lg:-right-2 lg:w-20 lg:h-20
+        xl:-right-6 xl:w-24 xl:h-24
+        2xl:-right-10 2xl:w-28 2xl:h-28
+      "
+      onClick={scrollNext}
+    >
+      <ChevronRight
+        className="
+          w-8 h-8 text-[#B97271]  
+          sm:w-8 sm:h-8
+          md:w-10 md:h-10
+          lg:w-12 lg:h-12
+          xl:w-14 xl:h-14
+        "
+      />
+    </button>
+  </div>
+</div>
         </div>
       </div>
     </section>
