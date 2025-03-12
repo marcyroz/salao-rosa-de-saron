@@ -14,13 +14,13 @@ interface CardContainerProps {
 
 const CardContainer: React.FC<CardContainerProps> = ({ children, radius, width, height, color, shadow, opacity, padding, gap, direction }) => {
     return (
-        <article className={`flex mx-auto items-center justify-center ${color ? color : 'bg-[#B97271]'} ${opacity ? opacity : 'opacity-100'} ${shadow ? 'drop-shadow-lg' : 'shadow-none'}`} style={{
+        <article className={`flex items-center justify-center ${color ? color : 'bg-[#B97271]'} ${opacity ? opacity : 'opacity-100'} ${shadow ? 'drop-shadow-lg' : 'shadow-none'}`} style={{
             width: width ? width : 'auto',
             height: height ? height : 'auto',
             borderRadius: radius ? radius : 16,
             padding: padding ? padding : 16,
             flexDirection: direction ? direction : 'row',
-            gap: gap ? gap : 10,
+            gap: gap ? gap : 0,
         }}>
             {children}
         </article>

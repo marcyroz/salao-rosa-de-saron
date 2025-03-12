@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import hero from '../../../../public/hero.png';
+import image from '../../../../public/hero.png';
 import CardContainer from '../CardContainer';
 import ScheduleButton from '../ScheduleButton';
 import bg1 from '../../../../public/asset-1.png';
@@ -8,11 +8,11 @@ import bg3 from '../../../../public/asset-3.png';
 
 const Hero = () => {
     return (
-        <section className="relative w-full h-[830px] z-0 bg-[#C3A3A3] overflow-hidden">
+        <section className="relative w-full h-[830px] bg-[#C3A3A3] overflow-hidden">
 
-            <div className="absolute flex flex-col items-end justify-end gap-6 z-10 top-[70px] sm:top-[120px] mr-6 sm:mr-10 px-6 w-full max-w-[1700px]">
+            <div className="absolute flex flex-col items-end justify-end gap-6 z-10 top-[70px] sm:top-[120px] right-0 px-6 sm:pr-10 lg:pr-20 max-w-[90%] sm:max-w-[580px] lg:max-w-[800px] ml-auto">
                 <h1 className="text-3xl lg:text-5xl sm:text-4xl text-end" data-aos="fade-left">
-                    <b className="font-bold">O melhor salão de beleza da <br />Região: </b>Salão Rosa de Saron, <br />vem realçar sua beleza!
+                    <b className="font-bold">O melhor salão de beleza da Região: </b>Salão Rosa de Saron, vem realçar sua beleza!
                 </h1>
                 <div data-aos="zoom-in">
                     <ScheduleButton />
@@ -23,17 +23,12 @@ const Hero = () => {
             <Image src={bg1} alt='background-image-2' className="z-0 absolute left-[-16px] lg:left-[90px] h-[300px] w-[300px] lg:h-[450px] lg:w-[450px]" />
             <Image src={bg3} alt='background-image-3' className='z-0 absolute right-0 bottom-0 h-[500px] w-[300px] lg:h-[700px] lg:w-[450px]' />
 
-
-            <div className='absolute z-10 bottom-12' data-aos="zoom-in" data-aos-delay="300">
-                <Image src={hero} alt='Sirlei Santos' className='object-cover lg:hidden' height={400} quality={100} priority />
-            </div>
-
-            <div className='absolute z-10 bottom-12' data-aos="zoom-in" data-aos-delay="300">
-                <Image src={hero} alt='Sirlei Santos' className='object-cover lg:hidden' height={400} quality={100} priority />
+            <div className='absolute z-10 bottom-12' data-aos="zoom-in" data-aos-delay="100">
+                <Image src={image} alt='Sirlei Santos' className='object-cover lg:hidden' height={400} quality={100} priority />
             </div>
 
             <div className='w-full items-end justify-end lg:hidden'>
-                <div className="absolute right-5 bottom-[200px] sm:right-[80px] sm:bottom-[240px] z-10" data-aos='fade-right' data-aos-delay='600'>
+                <div className="absolute right-5 bottom-[200px] sm:right-[80px] sm:bottom-[240px] z-10" data-aos='fade-right' data-aos-delay='200'>
                     <CardContainer opacity='opacity-90'>
                         <div className="flex justify-end items-center h-full w-full">
                             <p className="text-sm sm:text-lg">
@@ -47,7 +42,7 @@ const Hero = () => {
                     </CardContainer>
                 </div>
 
-                <div className="absolute right-5 sm:right-[130px] bottom-[70px] z-10" data-aos='fade-right' data-aos-delay='1000'>
+                <div className="absolute right-5 sm:right-[130px] bottom-[70px] z-10" data-aos='fade-right' data-aos-delay='300'>
                     <CardContainer opacity='opacity-90'>
                         <div className="flex justify-end items-center h-full w-full">
                             <p className="text-sm sm:text-lg">
@@ -67,9 +62,9 @@ const Hero = () => {
 
 
             <div className="hidden lg:block" >
-                <div className="absolute left-2 bottom-8 w-auto z-10" data-aos="zoom-in" data-aos-delay="300">
+                <div className="absolute left-2 bottom-8 w-auto z-10" data-aos="zoom-in" data-aos-delay="100">
                     <Image
-                        src={hero}
+                        src={image}
                         alt="Hero"
                         className="object-contain"
                         quality={100}
@@ -77,7 +72,7 @@ const Hero = () => {
                     />
                 </div>
 
-                <div className="absolute left-[240px] bottom-[260px] z-0" data-aos='fade-right' data-aos-delay='600'>
+                <div className="absolute left-[240px] bottom-[260px] z-0" data-aos='fade-right' data-aos-delay='200'>
                     <CardContainer opacity="opacity-80" width="500px" height="145px">
                         <div className="flex justify-end items-center h-full w-full">
                             <p className="text-lg">
@@ -91,7 +86,7 @@ const Hero = () => {
                     </CardContainer>
                 </div>
 
-                <div className="absolute left-[330px] bottom-[70px] z-0" data-aos='fade-right' data-aos-delay='1000'>
+                <div className="absolute left-[330px] bottom-[70px] z-0" data-aos='fade-right' data-aos-delay='300'>
                     <CardContainer opacity="opacity-80" width="524px" height="145px">
                         <div className="flex justify-end items-center h-full w-full">
                             <p className="text-lg">
