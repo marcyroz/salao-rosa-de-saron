@@ -117,7 +117,7 @@ const Services = () => {
                     min-[1600px]:flex-[0_0_calc(100%/5)]   
                   "
                 >
-                  <CardContainer width="292px" height="488px">
+                  <CardContainer width="292px" height="488px" auto>
                     <article className="flex flex-col h-full mt-1 cursor-pointer select-none">
                       <div className="mb-4 flex items-center ml-1">
                         <Image
