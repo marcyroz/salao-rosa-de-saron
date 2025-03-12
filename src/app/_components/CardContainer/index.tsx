@@ -9,9 +9,10 @@ interface CardContainerProps {
     padding?: number,
     gap?: number,
     direction?: 'row' | 'column',
+    auto?: boolean,
 }
 
-const CardContainer: React.FC<CardContainerProps> = ({ children, radius, width, height, color, shadow, opacity, padding, gap, direction }) => {
+const CardContainer: React.FC<CardContainerProps> = ({ children, radius, width, height, color, shadow, opacity, padding, gap, direction, auto }) => {
     return (
         <article className={`flex mx-auto items-center justify-center ${color ? color : 'bg-[#B97271]'} ${opacity ? opacity : 'opacity-100'} ${shadow ? 'drop-shadow-lg' : 'shadow-none'}`} style={{
             width: width ? width : 'auto',
@@ -20,6 +21,7 @@ const CardContainer: React.FC<CardContainerProps> = ({ children, radius, width, 
             padding: padding ? padding : 16,
             flexDirection: direction ? direction : 'row',
             gap: gap ? gap : 10,
+            margin: auto ? 'auto' : 0,
         }}>
             {children}
         </article>
