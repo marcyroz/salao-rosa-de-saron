@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import CardContainer from '../CardContainer';
+import CardContainer from '@/app/_components/CardContainer';
 import bg1 from '../../../../public/asset-5.png';
 import image from '../../../../public/reasons.png';
 

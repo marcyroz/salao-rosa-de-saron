@@ -12,8 +12,8 @@ import sobrancelhaImage from "../../../../public/carouselPhotos/sobrancelha.png"
 import emblaCarouselImage from "embla-carousel-react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import useEmblaCarousel from "embla-carousel-react";
-import CardContainer from "../CardContainer";
-import ScheduleButton from "../ScheduleButton";
+import CardContainer from '@/app/_components/CardContainer';
+import ScheduleButton from '@/app/_components/ScheduleButton';
 
 /* Array dos services*/
 const services = [

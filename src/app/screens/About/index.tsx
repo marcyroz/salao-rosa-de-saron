@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import ScheduleButton from '../ScheduleButton';
+import ScheduleButton from '@/app/_components/ScheduleButton';
 import bg1 from '../../../../public/asset-4.png';
 
 const About = () => {
