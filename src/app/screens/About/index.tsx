@@ -4,7 +4,7 @@ import bg1 from '../../../../public/asset-4.png';
 
 const About = () => {
     return (
-        <section className='relative w-full h-[935px] lg:h-[990px] bg-white overflow-hidden flex items-center justify-center pt-[90px] sm:pt-[150px] pb-[80px]'>
+        <section className='relative w-full h-[935px] lg:h-[990px] bg-[#F1F1F1] overflow-hidden flex items-center justify-center pt-[90px] sm:pt-[150px] pb-[80px]'>
 
             <Image src={bg1} alt='background-image-4' className='absolute z-0 right-0 bottom-0 sm:bottom-10 w-[300px] sm:w-[500px]' />
 

@@ -9,11 +9,9 @@ import manicureImage from "../../../../public/carouselPhotos/manicure.png";
 import mechasImage from "../../../../public/carouselPhotos/mechas.png";
 import progressivaImage from "../../../../public/carouselPhotos/progressiva.png";
 import sobrancelhaImage from "../../../../public/carouselPhotos/sobrancelha.png";
-import emblaCarouselImage from "embla-carousel-react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import useEmblaCarousel from "embla-carousel-react";
 import CardContainer from '@/app/_components/CardContainer';
-import ScheduleButton from '@/app/_components/ScheduleButton';
 
 /* Array dos services*/
 const services = [
@@ -79,9 +77,9 @@ const Services = () => {
   }
 
   return (
-    <section className="relative w-full h-[830px] z-0 bg-white overflow-hidden px-4 sm:px-6 lg:px-8">
-      <div className="absolute flex flex-col items-center justify-end space-y-10 z-10 top-[70px] sm:top-[120px] left-1/2 -translate-x-1/2 w-full max-w-[1700px] px-4">
-        {/* Titulo do service*/}
+    <section className="relative w-full h-[830px] z-0 bg-[#F1F1F1] overflow-hidden px-4 sm:px-6 lg:px-8">
+      <div className="absolute flex flex-col items-center justify-end space-y-10 z-10 top-[70px]  left-1/2 -translate-x-1/2 w-full max-w-[1700px] px-4">
+
         <div data-aos="flip-up">
           <Image
             src={line}
@@ -95,14 +93,15 @@ const Services = () => {
         >
           Nossos Serviços Mais Procurados
         </h2>
+
         <div data-aos="flip-up">
           <Image
             src={line}
             alt="line-image"
-            className="w-[170px] lg:w-[350px] h-0.5 "
+            className="w-[170px] lg:w-[350px] h-0.5"
           />
         </div>
-        {/* Carrossel de imagens*/}
+
         <div className="relative mt-8 w-full" data-aos="flip-up">
           <div className="overflow-hidden" ref={emblaRef}>
             <div className="flex justify-items-center">
@@ -131,7 +130,7 @@ const Services = () => {
                         </h2>
                       </div>
                       <div className="text-center font-medium select-none">
-                        <h3>{item.description}</h3>
+                        <p>{item.description}</p>
                       </div>
                     </article>
                   </CardContainer>
@@ -140,9 +139,9 @@ const Services = () => {
             </div>
           </div>
           <div className="absolute inset-0 pointer-events-none">
-  <div className="relative h-full w-full max-w-[1700px] mx-auto">
-    <button
-      className="
+            <div className="relative h-full w-full max-w-[1700px] mx-auto">
+              <button
+                className="
         flex items-center justify-center absolute top-1/2 -translate-y-1/2 z-10 bg-[#ececec] 
         drop-shadow-lg rounded-full pointer-events-auto
         left-3 w-16 h-16   
@@ -152,21 +151,21 @@ const Services = () => {
         xl:-left-6 xl:w-24 xl:h-24
         2xl:-left-10 2xl:w-28 2xl:h-28
       "
-      onClick={scrollPrev}
-    >
-      <ChevronLeft
-        className="
+                onClick={scrollPrev}
+              >
+                <ChevronLeft
+                  className="
           w-8 h-8 text-[#B97271]  
           sm:w-8 sm:h-8
           md:w-10 md:h-10
           lg:w-12 lg:h-12
           xl:w-14 xl:h-14
         "
-      />
-    </button>
+                />
+              </button>
 
-    <button
-      className="
+              <button
+                className="
         flex items-center justify-center absolute top-1/2 -translate-y-1/2 z-10 bg-[#ececec] 
         drop-shadow-lg rounded-full pointer-events-auto
         right-3 w-16 h-16  
@@ -176,20 +175,20 @@ const Services = () => {
         xl:-right-6 xl:w-24 xl:h-24
         2xl:-right-10 2xl:w-28 2xl:h-28
       "
-      onClick={scrollNext}
-    >
-      <ChevronRight
-        className="
+                onClick={scrollNext}
+              >
+                <ChevronRight
+                  className="
           w-8 h-8 text-[#B97271]  
           sm:w-8 sm:h-8
           md:w-10 md:h-10
           lg:w-12 lg:h-12
           xl:w-14 xl:h-14
         "
-      />
-    </button>
-  </div>
-</div>
+                />
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </section>
