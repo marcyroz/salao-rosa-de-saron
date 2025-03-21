@@ -41,7 +41,7 @@ const Footer = () => {
                                 </CardContainer>
                             </a>
 
-                            <a target='_blank' href={`https://wa.me/5567999999999?text=Olá! Vim do site e gostaria de agendar um horário com vocês.`} className='cursor-pointer'>
+                            <a target='_blank' href={`https://wa.me/5513996402047?text=Olá! Vim do site e gostaria de agendar um horário com vocês.`} className='cursor-pointer'>
                                 <CardContainer color='bg-white' padding={8} radius={12}>
                                     <WhatsappLogo color='#B97271' className='w-8 h-8' weight="fill" />
                                 </CardContainer>
