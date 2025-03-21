@@ -40,7 +40,7 @@ const FAQ = () => {
     };
 
     return (
-        <section className='bg-[#F1F1F1] relative overflow-hidden flex items-center justify-center px-4 sm:px-6 lg:px-8'>
+        <section id='faq' className='bg-[#F1F1F1] relative overflow-hidden flex items-center justify-center px-4 sm:px-6 lg:px-8'>
             <div className='container flex flex-col items-center space-y-6 max-w-[900px]'>
 
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-[360px] lg:-translate-x-[460px] -translate-y-1/2 z-0 w-[600px] lg:w-full max-w-[800px]">
@@ -51,15 +51,15 @@ const FAQ = () => {
                     />
                 </div>
 
-                <div className='py-10 lg:py-20'>
+                <div className='py-10 lg:py-20' data-aos="zoom-in">
                     <ScheduleButton />
                 </div>
 
-                <h2 className='text-[#B97271] font-bold text-3xl lg:text-[35px] text-center' data-aos="fade-up">
+                <h2 className='text-[#B97271] font-bold text-3xl lg:text-[35px] text-center' data-aos="fade-left">
                     Perguntas Frequentes
                 </h2>
 
-                <div className='flex flex-col gap-5 pb-20 lg:pb-50'>
+                <div className='flex flex-col gap-5 pb-20 lg:pb-50' data-aos="fade-left" data-aos-delay="300">
                     {FAQs.map((faq, index) => (
                         <div key={index} className='flex flex-col gap-3'>
 
