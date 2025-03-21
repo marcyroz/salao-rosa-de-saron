@@ -9,11 +9,9 @@ import manicureImage from "../../../../public/carouselPhotos/manicure.png";
 import mechasImage from "../../../../public/carouselPhotos/mechas.png";
 import progressivaImage from "../../../../public/carouselPhotos/progressiva.png";
 import sobrancelhaImage from "../../../../public/carouselPhotos/sobrancelha.png";
-import emblaCarouselImage from "embla-carousel-react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import useEmblaCarousel from "embla-carousel-react";
 import CardContainer from '@/app/_components/CardContainer';
-import ScheduleButton from '@/app/_components/ScheduleButton';
 
 /* Array dos services*/
 const services = [
@@ -95,6 +93,7 @@ const Services = () => {
         >
           Nossos Serviços Mais Procurados
         </h2>
+
         <div data-aos="flip-up">
           <Image
             src={line}
@@ -102,7 +101,7 @@ const Services = () => {
             className="w-[170px] lg:w-[350px] h-0.5"
           />
         </div>
-        {/* Carrossel de imagens*/}
+
         <div className="relative mt-8 w-full" data-aos="flip-up">
           <div className="overflow-hidden" ref={emblaRef}>
             <div className="flex justify-items-center">
@@ -131,7 +130,7 @@ const Services = () => {
                         </h2>
                       </div>
                       <div className="text-center font-medium select-none">
-                        <h3>{item.description}</h3>
+                        <p>{item.description}</p>
                       </div>
                     </article>
                   </CardContainer>
