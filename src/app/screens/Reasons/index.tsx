@@ -2,6 +2,7 @@ import Image from 'next/image';
 import CardContainer from '@/app/_components/CardContainer';
 import bg1 from '../../../../public/asset-5.png';
 import image from '../../../../public/reasons.png';
+import image2 from '../../../../public/asset-6.svg';
 
 const Reasons = () => {
     return (
@@ -17,6 +18,13 @@ const Reasons = () => {
                 />
             </div>
 
+            <div>
+                <Image
+                    src={image2}
+                    alt='reason-image'
+                    className='absolute w-[100px] lg:w-[310px] left-0  -bottom-[80px] lg:-bottom-[200px] z-20 object-contain'
+                />
+            </div>
 
             <div className='w-full h-full relative flex items-center justify-center overflow-hidden'>
                 <Image
