@@ -2,8 +2,8 @@
 Bem-vindo ao **Rosa de Saron**, o melhor salão de beleza da Praia Grande! ✂️💅
 
 ![image](https://github.com/user-attachments/assets/1336bd9f-a928-45b0-876e-ad9b6f48a2b2)
-![Captura de tela 2025-03-23 170950](https://github.com/user-attachments/assets/ffd033bd-1779-482b-bee6-ca7e2102de3d)
-![Captura de tela 2025-03-23 171203](https://github.com/user-attachments/assets/1f43e098-1f70-4d86-af70-c1650bfaa34b)
+![image](https://github.com/user-attachments/assets/3fdee565-6074-4ca9-9518-74e6ab482bfa)
+![image](https://github.com/user-attachments/assets/dbf04c0b-47e9-4fa7-a1f1-79bd0e7a99b9)
 
 ---
 
@@ -17,8 +17,6 @@ Para a estilização, utilizamos **Tailwind CSS**, junto com bibliotecas para an
 - 🎠 **[Embla Carousel](https://www.embla-carousel.com/)** - Carrossel para os serviços.
 - 🎭 **[Framer Motion](https://www.framer.com/motion/)** - Animações para a seção de FAQ.
 
-A hospedagem foi feita na **Vercel**, que possui integração nativa com **Next.js** e suporte para as últimas versões do **Tailwind CSS**.
-
 ### 📌 Tecnologias utilizadas:
 
 ![Next.js](https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=nextdotjs&logoColor=white)
@@ -28,6 +26,13 @@ A hospedagem foi feita na **Vercel**, que possui integração nativa com **Next.
 ![AOS](https://img.shields.io/badge/AOS-FFA500?style=for-the-badge)
 ![Embla Carousel](https://img.shields.io/badge/Embla-000?style=for-the-badge)
 ![Vercel](https://img.shields.io/badge/Vercel-000?style=for-the-badge&logo=vercel&logoColor=white)
+![Hostinger](https://img.shields.io/badge/Hostinger-673AB7?style=for-the-badge&logo=hostinger&logoColor=white)
+
+---
+
+## 🌍 Domínio e Hospedagem
+
+A aplicação está hospedada na **Vercel**, garantindo alta performance e integração nativa com **Next.js**. Além disso, adquirimos um domínio personalizado na **Hostinger**, proporcionando uma identidade profissional e melhorando a experiência dos usuários.
 
 ---
 
@@ -41,11 +46,11 @@ A hospedagem foi feita na **Vercel**, que possui integração nativa com **Next.
 
 ## 💖 Agradecimentos
 
-Este projeto foi desenvolvido com todo carinho do mundo para a minha mãe, contando com a colaboração essencial de:
+Este projeto foi desenvolvido com muito carinho para minha mãe, com a colaboração essencial de:
 
-👨‍💻 **[Vinicius Cauã](https://github.com/Vinicius-Caua)** - Desenvolvimento
+👨‍💻 **[Vinicius Cauã](#)** - Desenvolvimento
 
-🎨 **Ana Luyza** - Design
+🎨 **[Ana Luyza](#)** - Design
 
-Obrigada por apoiarem esse projeto! 💕
+Obrigado por apoiarem esse projeto! 💕
 
