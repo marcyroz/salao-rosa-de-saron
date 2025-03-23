@@ -36,7 +36,7 @@ const Benefits = () => {
                 <div className='flex justify-center items-center w-full h-full container max-w-[960px] px-6 sm:px-10 z-30'>
                     <div className='flex flex-col space-y-10 z-30 w-full'>
                         <h2 className='font-bold text-3xl sm:text-[35px] text-center' data-aos="fade-right">
-                            "Por que escolher o ROSA DE SARON?
+                            Por que escolher o ROSA DE SARON?
                         </h2>
 
                         <div className='space-y-6' data-aos="fade-right" data-aos-delay="300">

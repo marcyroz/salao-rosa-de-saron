@@ -12,11 +12,26 @@ import bg2 from '../../../../public/asset-7.png';
 const FAQs = [
     {
         question: 'Como faço para agendar um horário?',
-        answer: 'A forma mais prática e simples é acessando o nosso agendador clicando aqui. Caso não queira, pode nos chamar no nosso WhatsApp (13)99640-2047 ou ligar no nosso telefone fixo (13)3481-2829. Ou se preferir, pode ir diretamente ao nosso estabelecimento para realizar o agendamento pessoalmente.'
+        answer: (
+            <span>
+                A forma mais prática e simples é acessando o nosso agendador <a
+                    target='_blank'
+                    href='https://salaor11.gendo.app/?fbclid=PAZXh0bgNhZW0CMTEAAaafqITk35uG8BhRx7xPk1A7DcdKx7LWwJzrTZVL_uF7qKz0IVPW8_1xo-Y_aem_DfxrjAAQQoAfOIIkK7qOng#/'
+                    className="font-semibold">
+                    clicando aqui
+                </a>. Caso não queira, pode nos chamar no nosso WhatsApp (13) 99640-2047
+                ou ligar no nosso telefone fixo (13) 3481-2829. Ou se preferir, pode ir diretamente ao nosso estabelecimento
+                para realizar o agendamento pessoalmente.
+            </span>
+        )
     },
     {
         question: 'Qual o endereço do salão?',
-        answer: 'Estamos localizados na Rua Silvia Dias 167, bairro Vila Sônia, na cidade de Praia Grande-SP.'
+        answer: (
+            <span>
+                Estamos localizados na <a target='_blank' href='https://www.google.com/maps/place/Salao+Rosa+De+Saron/@-23.9987413,-46.4505503,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce1e97c5c157bb:0xc4e49f433afbceeb!8m2!3d-23.9987462!4d-46.4479754!16s%2Fg%2F11f3r2_2x9?entry=ttu&g_ep=EgoyMDI1MDMxOS4xIKXMDSoASAFQAw%3D%3D' className="font-semibold">Rua Silvia Dias 167, bairro Vila Sônia, na cidade de Praia Grande-SP.</a>
+            </span>
+        )
     },
     {
         question: 'Quais as formas de pagamento que vocês aceitam? Vocês parcelam?',
@@ -63,7 +78,7 @@ const FAQ = () => {
                     {FAQs.map((faq, index) => (
                         <div key={index} className='flex flex-col gap-3'>
 
-                            <button onClick={() => toggleFAQ(index)} className="w-full cursor-pointer">
+                            <button onClick={() => toggleFAQ(index)} className="w-full cursor-pointer hover:scale-102 duration-300">
                                 <CardContainer
                                     radius={25}
                                     padding={20}
@@ -100,4 +115,3 @@ const FAQ = () => {
 };
 
 export default FAQ;
-

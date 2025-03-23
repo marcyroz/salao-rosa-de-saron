@@ -11,9 +11,11 @@ const Hero = () => {
         <section id="hero" className="relative w-full h-[830px] bg-[#C3A3A3] overflow-hidden">
 
             <div className="absolute flex flex-col items-end justify-end gap-6 z-10 top-[70px] sm:top-[120px] right-0 px-6 sm:pr-10 lg:pr-20 max-w-[90%] sm:max-w-[580px] lg:max-w-[800px] ml-auto">
+
                 <h1 className="text-3xl lg:text-5xl sm:text-4xl text-end" data-aos="fade-left">
                     <b className="font-bold">O melhor salão de beleza da Região: </b>Salão Rosa de Saron, vem realçar sua beleza!
                 </h1>
+
                 <div data-aos="zoom-in">
                     <ScheduleButton />
                 </div>

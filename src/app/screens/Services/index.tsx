@@ -117,7 +117,7 @@ const Services = () => {
                   "
                 >
                   <CardContainer width="292px" height="488px" auto>
-                    <article className="flex flex-col h-full mt-1 cursor-pointer select-none">
+                    <article className="flex flex-col h-full mt-1 select-none">
                       <div className="mb-4 flex items-center ml-1">
                         <Image
                           src={item.image}
@@ -142,7 +142,7 @@ const Services = () => {
             <div className="relative h-full w-full max-w-[1700px] mx-auto">
               <button
                 className="
-        flex items-center justify-center absolute top-1/2 -translate-y-1/2 z-10 bg-[#ececec] 
+        flex items-center justify-center absolute top-1/2 -translate-y-1/2 z-10 bg-[#ececec] cursor-pointer
         drop-shadow-lg rounded-full pointer-events-auto
         left-3 w-16 h-16   
         sm:left-4 sm:w-14 sm:h-14
@@ -166,7 +166,7 @@ const Services = () => {
 
               <button
                 className="
-        flex items-center justify-center absolute top-1/2 -translate-y-1/2 z-10 bg-[#ececec] 
+        flex items-center justify-center absolute top-1/2 -translate-y-1/2 z-10 bg-[#ececec] cursor-pointer
         drop-shadow-lg rounded-full pointer-events-auto
         right-3 w-16 h-16  
         sm:right-4 sm:w-14 sm:h-14
