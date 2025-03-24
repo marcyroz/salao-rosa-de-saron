@@ -24,7 +24,7 @@ const Footer = () => {
                 </div>
 
                 <div className='flex sm:mx-auto sm:items-center sm:justify-center w-[295px]'>
-                    <Image src={logo} alt='logo rosa de saron' width={200} className='my-6' />
+                    <Image src={logo} alt='logo rosa de saron' width={200} className='my-6' priority />
                 </div>
 
                 <div className='flex flex-col gap-8 sm:items-center'>

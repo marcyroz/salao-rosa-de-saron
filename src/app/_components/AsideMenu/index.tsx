@@ -1,8 +1,6 @@
 "use client";
 
 import { X } from "lucide-react";
-import Image from 'next/image';
-import logo from "../../../../public/logo.svg";
 
 interface AsideMenuProps {
     isOpen: boolean;
