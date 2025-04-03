@@ -40,7 +40,7 @@ A aplicação está hospedada na **Vercel**, garantindo alta performance e integ
 
 🔹 **Figma**: [Clique aqui](https://www.figma.com/design/nkm3DdPEekwXm0bHqQMa4w/sal%C3%A3o?node-id=0-1&t=Jm0hHsAQyjWMFg2v-1)
 
-🔹 **Deploy**: [Acesse aqui](https://salao-rosa-de-saron.vercel.app/)
+🔹 **Deploy**: [Clique aqui](https://www.salaorosadesaronpg.com.br/)
 
 ---
 
