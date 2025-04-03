@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import { AlignJustify } from "lucide-react";
 import AsideMenu from '../AsideMenu';
-import logo from "../../../../public/logo.svg";
+import logo from "../../../../public/logos/logo.svg";
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);

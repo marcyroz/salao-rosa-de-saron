@@ -1,10 +1,10 @@
 import Image from 'next/image';
-import image from '../../../../public/hero.png';
 import CardContainer from '@/app/_components/CardContainer';
 import ScheduleButton from '@/app/_components/ScheduleButton';
-import bg1 from '../../../../public/asset-1.png';
-import bg2 from '../../../../public/asset-2.png';
-import bg3 from '../../../../public/asset-3.png';
+import image from '../../../../public/assetsImages/hero.png';
+import bg1 from '../../../../public/assetsImages/asset-1.png';
+import bg2 from '../../../../public/assetsImages/asset-2.png';
+import bg3 from '../../../../public/assetsImages/asset-3.png';
 
 const Hero = () => {
     return (

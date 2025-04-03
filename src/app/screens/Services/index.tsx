@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import line from "../../../../public/line-1.png";
+import line from "../../../../public/assetsImages/asset-8.png";
 import bronzeImage from "../../../../public/carouselPhotos/bronze.png";
 import dia_da_noivaImage from "../../../../public/carouselPhotos/dia_da_noiva.png";
 import luzesImage from "../../../../public/carouselPhotos/luzes.png";
@@ -13,7 +13,6 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import useEmblaCarousel from "embla-carousel-react";
 import CardContainer from '@/app/_components/CardContainer';
 
-/* Array dos services*/
 const services = [
   {
     image: dia_da_noivaImage,

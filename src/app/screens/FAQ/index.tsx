@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 import 'aos/dist/aos.css';
 import ScheduleButton from '@/app/_components/ScheduleButton';
 import Image from 'next/image';
-import bg2 from '../../../../public/asset-7.png';
+import bg2 from '../../../../public/assetsImages/asset-7.png';
 
 const FAQs = [
     {
