@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import logo from '../../../../public/logo.svg';
+import logo from '../../../../public/logos/logo.svg';
 import CardContainer from '../CardContainer';
 import { InstagramLogo, WhatsappLogo } from '@phosphor-icons/react/dist/ssr'
 import { CalendarCheck } from 'lucide-react'

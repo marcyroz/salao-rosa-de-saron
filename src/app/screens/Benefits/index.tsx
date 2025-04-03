@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import CardContainer from '@/app/_components/CardContainer';
-import bg1 from '../../../../public/asset-5.png';
-import image from '../../../../public/reasons.png';
-import image2 from '../../../../public/asset-6.svg';
+import bg1 from '../../../../public/assetsImages/asset-5.png';
+import image from '../../../../public/assetsImages/reasons.png';
+import image2 from '../../../../public/assetsImages/asset-6.svg';
 
 const Benefits = () => {
     return (

@@ -1,5 +1,5 @@
 import CardContainer from '../CardContainer'
-import image from '../../../../public/top-of-mind.svg'
+import image from '../../../../public/logos/top-of-mind.svg'
 import Image from 'next/image'
 
 const TopOfMind = () => {
