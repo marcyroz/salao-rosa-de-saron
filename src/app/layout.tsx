@@ -14,40 +14,30 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Salão Rosa de Saron",
   description: "Agende um horário no salão de beleza e estética perto de você. Praia Grande, Vila Sônia.",
-  openGraph: {
-    type: "website",
-    url: "https://salaorosadesaronpg.com.br",
-    title: "Salão Rosa de Saron",
-    description: "O melhor salão de beleza e estética da região!",
-    images: [
-      {
-        url: "https://salaorosadesaronpg.com.br/preview.png",
-        width: 1200,
-        height: 630,
-        alt: "Salão Rosa de Saron",
-      },
-    ],
-    siteName: "Salão Rosa de Saron",
-    locale: "pt_BR",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Salão Rosa de Saron",
-    description: "O melhor salão de beleza e estética da região!",
-    images: ["https://salaorosadesaronpg.com.br/preview.png"],
-  },
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
   return (
     <html lang="pt-br" className={`${poppins.className}`}>
-      <head>
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="manifest" href="/manifest.json" />
-        <meta name="author" content="Salão Rosa de Saron" />
-        <meta name="theme-color" content="#F1F1F1" />
-        <meta name="robots" content="index, follow" />
-      </head>
+      <link rel="icon" href="/favicon.ico" />
+      <link rel="manifest" href="/manifest.json" />
+      <meta name="author" content="Salão Rosa de Saron" />
+      <meta name="theme-color" content="#F1F1F1" />
+      <meta name="robots" content="index, follow" />
+      <meta name="apple-mobile-web-app-title" content="Rosa de Saron" />
+      <meta property="og:url" content="https://salaorosadesaronpg.com.br"></meta>
+      <meta property='og:site_name' content="salaorosadesaron.com.br" />
+      <meta property='og:title' content="Salão Rosa de Saron" />
+      <meta property='og:description' content="O melhor salão de beleza e estética da região!" />
+      <meta property='og:image' content="https://salaorosadesaronpg.com.br/preview.png" />
+      <meta property='twitter:card' content="summary_large_image" />
+      <meta property='twitter:title' content="Salão Rosa de Saron" />
+      <meta property='twitter:description' content="O melhor salão de beleza e estética da região!" />
+      <meta property='twitter:image' content="https://salaorosadesaronpg.com.br/preview.png" />
       <body>
         {children}
         <AosInit />
