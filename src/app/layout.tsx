@@ -30,10 +30,10 @@ export default function RootLayout({
       <meta name="robots" content="index, follow" />
       <meta name="apple-mobile-web-app-title" content="Rosa de Saron" />
       <meta property="og:url" content="https://salaorosadesaronpg.com.br"></meta>
-      <meta property='og:site_name' content="salaorosadesaron.com.br" />
+      <meta property='og:site_name' content="salaorosadesaronpg.com.br" />
       <meta property='og:title' content="Salão Rosa de Saron" />
       <meta property='og:description' content="O melhor salão de beleza e estética da região!" />
-      <meta property='og:image' content="https://salaorosadesaronpg.com.br/preview.png" />
+      <meta property='og:image' content="https://salaorosadesaronpg.com.br/preview-logo.png" />
       <meta property='twitter:card' content="summary_large_image" />
       <meta property='twitter:title' content="Salão Rosa de Saron" />
       <meta property='twitter:description' content="O melhor salão de beleza e estética da região!" />
