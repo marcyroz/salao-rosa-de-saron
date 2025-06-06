@@ -48,7 +48,7 @@ A aplicação está hospedada na **Vercel**, garantindo alta performance e integ
 
 Este projeto foi desenvolvido com muito carinho para minha mãe, com a colaboração essencial de:
 
-👨‍💻 **[Vinicius Cauã](#)** - Desenvolvimento
+👨‍💻 **[Vinicius Cauã](https://github.com/Vinicius-Caua)** - Desenvolvimento
 
 🎨 **[Ana Luyza](#)** - Design
 
