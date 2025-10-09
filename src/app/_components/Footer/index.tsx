@@ -19,7 +19,7 @@ const Footer = () => {
 
                     <div className='flex flex-col w-[295px]'>
                         <h3 className='font-semibold text-[20px] sm:text-2xl'>Horários</h3>
-                        <span className='text-sm sm:text-lg'>De segunda a sábado das 9h às 18h</span>
+                        <span className='text-sm sm:text-lg'>De terça a sábado das 9h às 18h</span>
                     </div>
                 </div>
 
